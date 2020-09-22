@@ -1,15 +1,15 @@
 \documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
 
-\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[a4paper, margin=.8in]{geometry}
 
 \usepackage{helvet} % Default font is the helvetica postscript font
 %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
 
 \usepackage{url}
+
 \usepackage{enumitem}
 
-% Text width of the document
-\setlength{\textwidth}{5.1in}
+\setlength{\textwidth}{5.1in} % Text width of the document
 
 \renewcommand{\baselinestretch}{1.45}
 
@@ -20,64 +20,72 @@
 
 \begin{document}
 
-% Your name at the top
-\moveleft.5\hoffset\centerline{\large\bf Mehmet~Ali~Tu\u{g}tekin Turan}
+\moveleft.5\hoffset\centerline{\large\bf Mehmet~Ali~Tu\u{g}tekin Turan} % Your name at the top
 
-% Horizontal line after name; adjust line thickness by changing the '1pt'
-\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
 
-\moveleft0.5\hoffset\centerline{Postdoctoral Research Associate, INRIA}
+\moveleft0.5\hoffset\centerline{Postdoctoral Research Associate, INRIA} % Your address
 \moveleft0.5\hoffset\centerline{615 Rue du Jardin-Botanique, 54600 Villers-lès-Nancy, France}
 \moveleft0.5\hoffset\centerline{+33 (7) 66 40 92 75}
 \moveleft0.5\hoffset\centerline{tugtekin.turan@inria.fr}
 \moveleft0.5\hoffset\centerline{\url{https://scholar.google.com/citations?user=w3OrQIIAAAAJ}}
-%-----------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
 
 \begin{resume}
 
 \section{RESEARCH \\ INTEREST}
 
 Speech Signal Processing | Automatic Speech Recognition | On-Body Sensing Speech Enhancement | Wearable Computing | Machine Learning for Healthcare
-
 \vspace{1em}
+
+\section{WORK \\ EXPERIENCE}
+{\sl \textbf{Postdoctoral Researcher}} \hfill June 2019 - Present \\[.3em]
+INRIA, Multispeech Team, France, \url{https://team.inria.fr/multispeech} \vspace{.3em}
+\begin{itemize}
+\item Working for \textit{H2020 Comprise} project, \url{https://www.compriseh2020.eu}
+\item Conducting research and development under a privacy-preserving setting
+\item Developing speaker adapted acoustic and language models
+\end{itemize}
+\vspace{1em}
+
 \section{EDUCATION}
 
-{\sl Doctor of Philosophy} \hfill October 2013 - March, 2019 \\[.3em]
+{\sl \textbf{Doctor of Philosophy}} \hfill October 2013 - March, 2019 \\[.3em]
 Ko\c{c} University, Electrical Engineering, Istanbul, Turkey \vspace{.3em}
 \begin{itemize}
 \item \textit{Thesis:} Use of Transfer Learning for Automatic Dietary Monitoring through Throat Microphone Recordings
+\item \textit{Read Online:} \url{https://doi.org/10.5281/zenodo.3841956}
 \item \textit{Advisor:} Dr.~Engin Erzin
-\item \textit{GPA:} 3.43 / 4.00
-\item Full scholarship from Ford Company, Turkey
-\item Grant support by the Scientiﬁc and Technological Research Council of Turkey (T\"{U}B{\.I}TAK)
+\item Full scholarship from Ford Motor Company, Turkey
+\item Grant support by the Scientific and Technological Research Council of Turkey (T\"{U}B{\.I}TAK)
 \end{itemize}
 
-{\sl Master of Science} \hfill September 2011 - August 2013 \\[.3em]
+{\sl \textbf{Master of Science}} \hfill September 2011 - August 2013 \\[.3em]
 Ko\c{c} University, Electrical Engineering, Istanbul, Turkey \vspace{.3em}
 \begin{itemize}
 \item \textit{Thesis:} Enhancement of Throat Microphone Recordings Using Gaussian \\ Mixture Model Probabilistic Estimator
 \item \textit{Read Online:} \url{https://arxiv.org/abs/1804.05937}
 \item \textit{Advisor:} Dr.~Engin Erzin
-\item \textit{GPA:} 3.34 / 4.00
 \item Full scholarship from Ko\c{c} University
 \end{itemize}
 
-{\sl Undergraduate Degree} \hfill September 2007 - June 2011 \\[.3em]
+{\sl \textbf{Undergraduate Degree}} \hfill September 2007 - June 2011 \\[.3em]
 Bilkent University, Electrical Engineering, Ankara, Turkey \vspace{.3em}
 \begin{itemize}
+% \item \textit{GPA:} 3.11 / 4.00
 \end{itemize}
 
 \vspace{1em}
 \section{TECHNICAL \\ SKILLS}
 
-{\sl Programming Languages:} Python, R, C/C++ \\
+{\sl Programming Languages:} Python, C/C++, R \\
 {\sl Tools:} Kaldi, PyTorch, SRILM, Keras, HTK, Bash, MATLAB, \LaTeX, Linux \\
 
-% \vspace{-1em}
+\vspace{-.5em}
 \section{SOCIETY \\ MEMBERSHIP}
 
-IEEE \& IEEE-SPS, {\sl Student Member} \hfill September 2011 - Present \\
-ISCA, {\sl Student Member} \hfill September 2012 - Present
+IEEE \& IEEE-SPS\hfill September 2011 - Present \\
+ISCA \hfill September 2012 - Present
 
 \vspace{1em}
 \section{RELEVANT \\ COURSEWORK}
@@ -94,7 +102,7 @@ Turkish, \textit{Native} \hspace{.1em}(\textit{Nationality}: Turkish) \\
 English, \textit{Fluent} \\
 French, \textit{Beginner}
 
-\vspace{1em}
+\vspace{.5em}
 \section{LEISURE \\ INTEREST}
 Amateur Cooking | Playing Guitar | Volunteering for Animals | Motorcycle Touring | Mobile Programming
 
@@ -102,9 +110,9 @@ Amateur Cooking | Playing Guitar | Volunteering for Animals | Motorcycle Touring
 \section{JOURNAL \\ PAPERS}
 
 \begin{itemize}[leftmargin=*]
-    \item \textbf{M.~A.~Tu\u{g}tekin Turan} and Engin Erzin. "Improving Phoneme Recognition of Throat Microphone Speech Recordings Using Transfer Learning." \textit{submitted to} Elsevier Speech Communication, 2020.
+    \item \textbf{M.~A.~Tu\u{g}tekin Turan} and Engin Erzin. "Improving Phoneme Recognition of Throat Microphone Speech Recordings Using Transfer Learning." \textit{under revision in} Elsevier Speech Communication, 2020.
 
-    \item \textbf{M.~A.~Tu\u{g}tekin Turan} and Engin Erzin. "Domain Adaptation for Food Intake Classification with Teacher/Student Learning." \textit{submitted to} IEEE Transactions on Multimedia, 2019.
+    \item \textbf{M.~A.~Tu\u{g}tekin Turan} and Engin Erzin. "Domain Adaptation for Food Intake Classification with Teacher/Student Learning." \textit{to appear in} IEEE Transactions on Multimedia, 2020.
 
     \item \textbf{M.~A.~Tu\u{g}tekin Turan} and Engin Erzin. "Source and Filter Estimation for Throat-Microphone Speech Enhancement." IEEE Transactions on Audio, Speech and Language Processing (TASLP), 2016. \\ \url{https://doi.org/10.1109/TASLP.2015.2499040}
 
@@ -116,7 +124,7 @@ Amateur Cooking | Playing Guitar | Volunteering for Animals | Motorcycle Touring
 \section{CONFERENCE \\ PAPERS}
 
 \begin{itemize}[leftmargin=*]
-    \item \textbf{M.~A.~Tu\u{g}tekin Turan}, Emmanuel Vincent and Denis Jouvet. "Improving Multi-Accent Speech Recognition Through Unsupervised Acoustic Model Adaptation." \textit{will be submitted to} INTERSPEECH, 2020. \hspace{.1em}
+    \item \textbf{M.~A.~Tu\u{g}tekin Turan}, Emmanuel Vincent and Denis Jouvet. "Achieving Multi-accent ASR via Unsupervised Acoustic Model Adaptation." INTERSPEECH, 2020. \hspace{.1em} \url{https://hal.inria.fr/hal-02907929/document}
 
     \item \textbf{M.~A.~Tu\u{g}tekin Turan} and Engin Erzin. "Monitoring Infant's Emotional Cry in Domestic Environments Using the Capsule Network Architecture." INTERSPEECH, 2018. \hspace{.1em} \url{https://doi.org/10.21437/Interspeech.2018-2187}
 
